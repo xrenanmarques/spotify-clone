@@ -1,0 +1,68 @@
+/* layout */
+
+html, body, .capa {
+    height: 100%;
+}
+
+body {
+    background: url("imagens/capa.png"),
+    url("imagens/ruido.png"),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.img-logo {
+    height: 40px;
+    width: 132px;
+    background: url("imagens/spotify.svg") no-repeat;
+    display: block;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparent {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
+}
+
+/* img capa */
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
